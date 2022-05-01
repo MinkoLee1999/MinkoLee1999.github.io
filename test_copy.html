@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <!-- 这块相当于写了个<head> -->
+  {% include head.html %}
+
+  <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
+
+    <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>
+      <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
+
+
+      <footer class="page-footer">
+        <p class="footer-line">Made by <a href="mailto:e0709106@u.nus.edu">@Minko Lee</a>. Fork me on <a href="https://github.com/MinkoLee1999">GitHub</a>.</p>
+        <p class="footer-line">Thanks for your attention. Any suggestion would be appreciated. ;-)</p>
+      </footer>
+
+    </div>
+
+  </body>
+
+</html>
