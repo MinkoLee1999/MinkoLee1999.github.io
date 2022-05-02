@@ -1,12 +1,15 @@
 # Skills
+# Communications strategy
+- skill: Data Analysis
+  description: <ul class="resume-item-list"><li>Proficient in SQL Query, including window functions and nested queries</li><li>Experienced in PySpark, use RDD and MapReduce to analyse bigdata</li></ul>
+
+
 # Machine Learing
 - skill: Machine Learning with Python
-  description: During the past year, I have had a lot of hands-on machine learning experiences, learned about the whole workflow of a ML task.
+  description: <ul class="resume-item-list"><li>Deal with missing values and imbalanced datasets to improve model performance</li><li>Bulid pipelines to integrete Tuning, Building, and Evaluating</li><li>Analyse source codes to learn state-of-the-art algorithms, like Informer, an out-performed NLP/Time-series model</li></ul>
 
+# PyTorch 或者 TensorFlow
 
-# Communications strategy
-- skill: SQL, Spark
-  description: Content and marketing strategy,
 
 # PowerPoint
 - skill: Slides Artist
