@@ -21,10 +21,11 @@
 .page-header { padding: 1.5rem 0;
   .switch {
     @include sans;
+    color: #000;
     font-size: 1rem;
     font-weight: 200;
     text-align: center;
-    letter-spacing: .15rem;
+    letter-spacing: .1rem;
     line-height: 1;
     margin: 1rem 0 0;
   }
