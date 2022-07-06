@@ -186,7 +186,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Outside Interests</h2>
+          <h2>Interests</h2>
         </header>
 
         <div class="resume-item">
@@ -236,6 +236,29 @@
       </section>
       <!-- end Print Social Links -->
       {% endif %}
+
+      {% if site.resume_section_gallery %}
+      <!-- begin Links -->
+      <section class="content-section">
+
+        <header class="section-header">
+          <h2>Gallery</h2>
+        </header>
+
+        <div class="resume-item">
+          <ul class="resume-item-list">
+            {% for link in site.data.links %}
+            <li><a href={{ link.url }} itemprop="url">{{ link.description }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      </section>
+      <!-- end Links -->
+      {% endif %}
+
+
+
 
       <footer class="page-footer">
         <p class="footer-line">Made by <a href="mailto:e0709106@u.nus.edu">@Minko Lee</a>. Fork me on <a href="https://github.com/MinkoLee1999">GitHub</a>.</p>
